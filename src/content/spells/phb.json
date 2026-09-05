@@ -1,0 +1,36 @@
+[
+  {
+    "id": "grasping-earth",
+    "name": "Grasping Earth",
+    "status": "playable",
+    "classIds": ["order-of-the-aether", "null-adept"],
+    "level": 1,
+    "kind": "complex",
+    "apCost": 3,
+    "summary": "Wraps a target in grasping earth that restrains on a successful Aether test.",
+    "rulesText": "You shape loose earth around a creature into grasping forms that close around its body. Make an Aether Test against the target's Strength Resistance.",
+    "resistance": "Strength Resistance",
+    "success": "The target is Restrained while the spell is maintained.",
+    "resisted": "The earth catches around the target's legs and reduces its movement by 10 feet until the start of your next turn.",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "25"
+  },
+  {
+    "id": "compression",
+    "name": "Compression",
+    "status": "playable",
+    "classIds": ["order-of-the-aether", "null-adept"],
+    "level": 1,
+    "kind": "complex",
+    "apCost": 3,
+    "summary": "Crushes a target with compressed Aether, dealing full or reduced impact damage.",
+    "rulesText": "You force the Aether surrounding a creature inward, briefly subjecting it to intense physical pressure. Make an Aether Test against the target's appropriate Resistance.",
+    "resistance": "Appropriate Resistance",
+    "success": "The target suffers 2d6 Impact damage and is pushed 5 feet.",
+    "resisted": "The target suffers 1d6 Impact damage.",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "25"
+  }
+]

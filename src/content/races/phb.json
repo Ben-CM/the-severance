@@ -1,0 +1,46 @@
+[
+  {
+    "id": "human",
+    "name": "Human",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5, 29-45",
+    "summary": "London-born survivors defined by grit, social adaptability and a wide spread of careers.",
+    "rulesText": "Humans are the best-supported player lineage in the current handbook. The detailed class chapters in this PDF cover three London-based Human classes: Street Fighter, Green Jacket and Sacrist Knight. Additional Human class overviews are listed earlier in the handbook for future expansion.",
+    "classIds": ["street-fighter", "green-jacket", "sacrist-knight", "fop", "parliamentarian", "society-fellow"]
+  },
+  {
+    "id": "helfin",
+    "name": "Helfin",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "6, 46-49, 66-68",
+    "summary": "A cultured people whose settlements prize art, commerce, protection and unusual Aethercraft.",
+    "rulesText": "The current handbook includes overview text for four Helfin orders and a full class chapter for Order of the Aether, plus a dedicated Helfin spell section. The data model keeps Helfin content separate so additional official or homebrew orders can be added as new JSON files without altering application logic.",
+    "classIds": ["order-of-the-arts", "order-of-commerce", "order-of-the-aether", "order-of-the-protector"]
+  },
+  {
+    "id": "azhar",
+    "name": "Azhar",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "7, 50-61, 69-70",
+    "summary": "The City of Brass produces artificers, wardens and dangerous Aether practitioners adapted to extreme environments.",
+    "rulesText": "Azhar content in the current handbook includes overview text for four class archetypes and full detailed chapters for Null Adept and Brasswright, alongside a dedicated Null Adept spell list. Their content suggests strong support for augmentations, technology and destructive Aether use.",
+    "classIds": ["brasswright", "null-adept", "ash-warden", "relic-seeker"]
+  },
+  {
+    "id": "tirren",
+    "name": "Tirren",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "8, 62-65",
+    "summary": "Hive-born defenders and specialists whose bodies and tactics are deeply shaped by colony life.",
+    "rulesText": "The handbook overview lists four Tirren class concepts while the current detailed rules chapter focuses on the Tirren Linekeeper. The app treats other listed Tirren classes as preview content so later JSON additions can activate them without schema changes.",
+    "classIds": ["linekeeper", "shock-trooper", "aether-specialist", "colony-lead"]
+  }
+]

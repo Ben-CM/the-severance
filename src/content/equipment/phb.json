@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unarmed",
+    "name": "Unarmed Strike",
+    "kind": "weapon",
+    "status": "playable",
+    "summary": "Default no-gear attack; Street Fighters and Fist Fighters make especially good use of it.",
+    "damage": "1d4 + STR",
+    "weaponAbility": "strength",
+    "attackBonus": 0,
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "3, 28"
+  },
+  {
+    "id": "club",
+    "name": "Improvised Club",
+    "kind": "weapon",
+    "status": "playable",
+    "summary": "A rough close-combat weapon suitable for Street Fighters and desperate brawls.",
+    "damage": "1d6 + STR",
+    "weaponAbility": "strength",
+    "attackBonus": 0,
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "71-72"
+  },
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "kind": "weapon",
+    "status": "playable",
+    "summary": "A firearm that uses Agility for attacks and benefits from the Firearms skill.",
+    "damage": "1d8 + AGI",
+    "weaponAbility": "agility",
+    "attackBonus": 1,
+    "notes": "Reloading costs 2 AP if your table uses the Firearms skill text from the common skills section.",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "28, 71-72"
+  },
+  {
+    "id": "rifle",
+    "name": "Rifle",
+    "kind": "weapon",
+    "status": "playable",
+    "summary": "A disciplined ranged weapon favoured by Green Jackets.",
+    "damage": "1d10 + AGI",
+    "weaponAbility": "agility",
+    "attackBonus": 1,
+    "notes": "Reloading costs 2 AP if your table uses the Firearms skill text from the common skills section.",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "28, 71-72"
+  },
+  {
+    "id": "armoured-tunic",
+    "name": "Armoured Tunic",
+    "kind": "armor",
+    "status": "playable",
+    "summary": "Light armour used in the handbook combat example.",
+    "armor": 2,
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "21"
+  },
+  {
+    "id": "leather-coat",
+    "name": "Leather Coat",
+    "kind": "armor",
+    "status": "playable",
+    "summary": "Light armour suitable for agile or lightly-equipped classes.",
+    "armor": 1,
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "71-72"
+  },
+  {
+    "id": "boilerplate-coat",
+    "name": "Boilerplate Coat",
+    "kind": "armor",
+    "status": "playable",
+    "summary": "A heavier protective coat with stronger armour but more style or class restrictions.",
+    "armor": 3,
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "71-72"
+  },
+  {
+    "id": "medical-kit",
+    "name": "Medical Kit",
+    "kind": "gear",
+    "status": "playable",
+    "summary": "Without the Healer skill it can restore only 1 HP; with training it scales by kit quality and healer expertise.",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "11"
+  }
+]

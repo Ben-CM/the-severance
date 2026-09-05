@@ -1,0 +1,251 @@
+[
+  {
+    "id": "street-fighter",
+    "name": "Street Fighter",
+    "raceId": "human",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5, 30-34",
+    "summary": "A brutal close-range fighter built for grappling, control, punishment and improvised violence.",
+    "roleTags": ["Bruiser", "Control", "Toughness"],
+    "rulesText": "Street Fighters are frontline brawlers who prefer ugly, personal fights. They calculate attacks with Strength, are trained for no or light armour, and rely on grappling, pressure and durability. Their East London heritage gives them a safe haven at Wonderland plus practical combat-focused benefits.",
+    "startingHp": 8,
+    "hitDieLabel": "1 Hit Die",
+    "classAbilityBonus": "resilience",
+    "attackAbility": "strength",
+    "armorTraining": ["none", "light"],
+    "heritageName": "Wonderland",
+    "heritageTraits": [
+      {
+        "title": "Wonderland",
+        "text": "You can always find basic shelter there for yourself and your companions, use the training facilities, and gather fighter-focused rumours or favours in East London."
+      },
+      {
+        "title": "Hard to Handle",
+        "text": "Gain +1 on checks to grab, shove, drag, wrestle, trip or break free, and automatically win ties on opposed checks."
+      },
+      {
+        "title": "Hard Case",
+        "text": "Add 1d4 to checks specifically made to resist pain, fatigue, physical hardship or being rendered unconscious."
+      },
+      {
+        "title": "Iron Lungs",
+        "text": "Gain +1 on saves involving inhaled gases or poisons."
+      }
+    ]
+  },
+  {
+    "id": "green-jacket",
+    "name": "Green Jacket",
+    "raceId": "human",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5, 35-39",
+    "summary": "A wilderness soldier who tracks, ambushes and fights with disciplined firearms positioning.",
+    "roleTags": ["Marksman", "Scout", "Ambush"],
+    "rulesText": "Green Jackets are trained to operate beyond London, spot danger, prepare ambushes and favour firearms over prolonged toe-to-toe fighting. The current app includes them as an official playable class, with deeper rules details preserved in the in-app handbook reference.",
+    "attackAbility": "agility"
+  },
+  {
+    "id": "sacrist-knight",
+    "name": "Sacrist Knight",
+    "raceId": "human",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5, 40-45",
+    "summary": "A sacred warrior focused on healing allies, protecting companions and hunting Abominations.",
+    "roleTags": ["Supernatural", "Support", "Aether"],
+    "rulesText": "Sacrist Knights combine martial capability with healing and anti-Abomination specialization. A combat example in the handbook references Divine Protection as a class defensive effect, so the builder treats them as a support-oriented class with strong defence hooks.",
+    "classAbilityBonus": "arcana"
+  },
+  {
+    "id": "order-of-the-aether",
+    "name": "Order of the Aether",
+    "raceId": "helfin",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "6, 46-49, 66-68",
+    "summary": "A creative Helfin Aether practitioner who manipulates matter, space and strange environmental effects.",
+    "roleTags": ["Aether", "Control", "Creativity"],
+    "rulesText": "Members of the Order of the Aether explore the Aether as something playful and experimental. Their abilities reward clever solutions, adaptive control and interaction with the surroundings rather than brute force.",
+    "classAbilityBonus": "arcana",
+    "attackAbility": "arcana"
+  },
+  {
+    "id": "null-adept",
+    "name": "Null Adept",
+    "raceId": "azhar",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "7, 50-55, 69-70",
+    "summary": "An unsettling Aetherist trained around death, destruction and draining vitality from behind the line.",
+    "roleTags": ["Aether", "Destruction", "Death"],
+    "rulesText": "Null Adepts are back-line supernatural specialists who corrupt vitality, punish weakened enemies and wield unsettling Aether. The official handbook also includes a dedicated Null Adept spell section that can be browsed in the app library and handbook view.",
+    "classAbilityBonus": "arcana",
+    "attackAbility": "arcana"
+  },
+  {
+    "id": "brasswright",
+    "name": "Brasswright",
+    "raceId": "azhar",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "7, 56-61",
+    "summary": "An ingenious artificer who adapts by rebuilding themselves with mechanisms, tools and integrated weapons.",
+    "roleTags": ["Adaptation", "Utility", "Dynamic"],
+    "rulesText": "Brasswrights thrive on preparation and customisation. Their identity centers on augmentation, integrated systems and changing themselves to suit the problem at hand. The app treats them as a modular utility class ready for future augmentation JSON content.",
+    "classAbilityBonus": "intellect"
+  },
+  {
+    "id": "linekeeper",
+    "name": "Tirren Linekeeper",
+    "raceId": "tirren",
+    "status": "playable",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "8, 62-65",
+    "summary": "A near-immovable defensive specialist who protects the hive line and can shatter enemy advances.",
+    "roleTags": ["Protection", "Rush", "Immovable"],
+    "rulesText": "Linekeepers are the first line of defence for a hive. They are built around protection, phalanx tactics and explosive charges that break enemy lines after weathering incoming pressure.",
+    "classAbilityBonus": "resilience",
+    "attackAbility": "strength"
+  },
+  {
+    "id": "fop",
+    "name": "Fop",
+    "raceId": "human",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5",
+    "summary": "A stylish adventurer mixing martial arts and Aether with elegance.",
+    "roleTags": ["Martial Arts", "Aether", "Style"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list. Keep as preview content until fuller mechanical data is added."
+  },
+  {
+    "id": "parliamentarian",
+    "name": "Parliamentarian",
+    "raceId": "human",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5",
+    "summary": "A manipulative government agent who controls situations through influence and precision.",
+    "roleTags": ["Espionage", "Influence", "Precision"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "society-fellow",
+    "name": "Society Fellow",
+    "raceId": "human",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "5",
+    "summary": "A Royal Society scholar of Aether, mysticism and field investigation.",
+    "roleTags": ["Aether", "Knowledge", "Mysticism"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "order-of-the-arts",
+    "name": "Order of the Arts",
+    "raceId": "helfin",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "6",
+    "summary": "An artist and inspirer who bends craft, performance and subtle Aether toward support.",
+    "roleTags": ["Creation", "Inspiration", "Aether"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "order-of-commerce",
+    "name": "Order of Commerce",
+    "raceId": "helfin",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "6",
+    "summary": "A social and logistical problem-solver who turns networks and deals into advantages.",
+    "roleTags": ["Influence", "Resources", "Negotiation"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "order-of-the-protector",
+    "name": "Order of the Protector",
+    "raceId": "helfin",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "6",
+    "summary": "A guardian who restrains, contains and banishes danger.",
+    "roleTags": ["Defence", "Containment", "Banishment"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "ash-warden",
+    "name": "Ash Warden",
+    "raceId": "azhar",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "7",
+    "summary": "A protected attrition defender from the City of Brass.",
+    "roleTags": ["Defence", "Attrition", "Retribution"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "relic-seeker",
+    "name": "Relic Seeker",
+    "raceId": "azhar",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "7",
+    "summary": "An explorer of ruins, forgotten machines and dangerous artefacts.",
+    "roleTags": ["Exploration", "Discovery", "Investigation"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "shock-trooper",
+    "name": "Shock Trooper",
+    "raceId": "tirren",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "8",
+    "summary": "A living weapon bred for direct assault, sacrifice and pressure.",
+    "roleTags": ["Assault", "Endurance", "Sacrifice"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "aether-specialist",
+    "name": "Aether Specialist",
+    "raceId": "tirren",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "8",
+    "summary": "A resonance-focused Tirren who chains linked magical patterns together.",
+    "roleTags": ["Aether", "Resonance", "Alteration"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  },
+  {
+    "id": "colony-lead",
+    "name": "Colony Lead",
+    "raceId": "tirren",
+    "status": "preview",
+    "sourceId": "phb",
+    "sourceLabel": "PHB",
+    "pages": "8",
+    "summary": "A sensory and coordination specialist who helps the party act like a single mind.",
+    "roleTags": ["Awareness", "Coordination", "Adaptation"],
+    "rulesText": "Listed in the overview section but not fully detailed in the current handbook chapter list."
+  }
+]

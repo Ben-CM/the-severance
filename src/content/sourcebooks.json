@@ -1,0 +1,16 @@
+[
+  {
+    "id": "phb",
+    "name": "The Severance Player's Handbook",
+    "shortName": "PHB",
+    "type": "Official",
+    "notes": "Primary official sourcebook included in the repository PDF. Several tables and option lists are explicitly marked as truncated in the handbook notes."
+  },
+  {
+    "id": "homebrew",
+    "name": "Homebrew",
+    "shortName": "Homebrew",
+    "type": "Custom",
+    "notes": "Reserved source identifier for future custom JSON content packs."
+  }
+]

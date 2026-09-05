@@ -1,32 +1,44 @@
-# React + TypeScript + Vite
+# The Severance Character Keeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React + TypeScript + LESS character sheet manager for **The Severance**.
 
-Currently, two official plugins are available:
+## MVP focus
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Local multi-character storage
+- Data-driven races, classes, skills, spells and equipment
+- Derived combat values like Attack bonus and Defense Rating
+- Manual override support with labels such as `+1: Temporary boost`
+- In-app PHB access from `Sourcebooks/The Severance PHB.pdf`
+- Multi-page print / PDF export via the browser print dialog
+- Extensible JSON content packs with source metadata for official and homebrew content
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Build
+
+```bash
+npm run build
+```
+
+## Lint
+
+```bash
+npm run lint
+```
+
+## Content structure
+
+Official starter content lives under `src/content/**` and is split by type:
+
+- `src/content/races/*.json`
+- `src/content/classes/*.json`
+- `src/content/skills/*.json`
+- `src/content/spells/*.json`
+- `src/content/equipment/*.json`
+
+Each entry carries source metadata so future hand-authored homebrew or collaboration packs can be added alongside PHB data.
